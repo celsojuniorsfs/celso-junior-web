@@ -16,7 +16,7 @@ Posicionamento: título composto **Desenvolvedor Full Stack & Tech Lead**, decid
 
 **Bio curta (parágrafo do Hero):**
 
-> Full stack com 8 anos de experiência em sistemas ERP corporativos de grande porte do código à liderança técnica. Atuo ponta a ponta em PHP 8/Laravel e Angular/TypeScript, e conduzo a evolução arquitetural desses sistemas ao lado de times multidisciplinares.
+> Full stack com 8 anos de experiência em sistemas ERP corporativos de grande porte, do código à liderança técnica. Atuo ponta a ponta em PHP 8/Laravel e Angular/TypeScript, e conduzo a evolução arquitetural desses sistemas ao lado de times multidisciplinares.
 
 ---
 

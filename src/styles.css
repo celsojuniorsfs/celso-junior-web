@@ -31,6 +31,7 @@
 
   --container-page: 79.5rem;
   --spacing-section: 7.5rem;
+  --spacing-header: 5rem;
   --radius-card: 0.625rem;
 }
 
@@ -43,4 +44,14 @@ body {
 :focus-visible {
   outline: 2px solid var(--color-accent);
   outline-offset: 2px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }

@@ -5,6 +5,7 @@ You are an expert in TypeScript, Angular, and scalable web application developme
 - Use strict type checking
 - Prefer type inference when the type is obvious
 - Avoid the `any` type; use `unknown` when type is uncertain
+- Name variables, functions, classes, and other identifiers in English, even though user-facing text and content stay in Portuguese
 
 ## Angular Best Practices
 

@@ -40,7 +40,7 @@ describe('Header', () => {
   it('renderiza o botão "Baixar currículo" com o link e o atributo download', () => {
     const button = findLinkByText(fixture.nativeElement, 'Baixar currículo');
 
-    expect(button?.getAttribute('href')).toBe('/CV_Celso_Luiz_da_Silva_Junior.pdf');
+    expect(button?.getAttribute('href')).toBe('/CV_Celso_Luiz_da_Silva_Junior_Tech_Lead.pdf');
     expect(button?.hasAttribute('download')).toBe(true);
   });
 });

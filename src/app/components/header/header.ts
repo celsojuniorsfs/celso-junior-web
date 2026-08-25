@@ -28,7 +28,7 @@ type NavItem = { href: string; label: string };
             Fale comigo
           </a>
           <a
-            href="/CV_Celso_Luiz_da_Silva_Junior.pdf"
+            href="/CV_Celso_Luiz_da_Silva_Junior_Tech_Lead.pdf"
             download
             class="text-sm font-medium text-text-subtle hover:text-text"
           >
@@ -69,7 +69,7 @@ type NavItem = { href: string; label: string };
         </li>
         <li>
           <a
-            href="/CV_Celso_Luiz_da_Silva_Junior.pdf"
+            href="/CV_Celso_Luiz_da_Silva_Junior_Tech_Lead.pdf"
             download
             class="text-sm font-medium text-text-subtle"
           >

@@ -44,6 +44,10 @@ Posicionamento: título composto **Desenvolvedor Full Stack & Tech Lead**, decid
 
 **Título de seção sugerido:** Serviços
 
+**Subtítulo (linha de apoio abaixo do título):**
+
+> O que eu faço
+
 1. **Desenvolvimento Backend**
 
    > APIs REST robustas e sistemas backend em PHP 8 e Laravel, do modelo de dados à regra de negócio, com foco em manutenibilidade e performance.

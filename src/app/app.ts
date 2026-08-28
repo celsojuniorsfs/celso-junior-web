@@ -6,9 +6,10 @@ import { Services } from './components/services/services';
 import { Skills } from './components/skills/skills';
 import { Projects } from './components/projects/projects';
 import { Contact } from './components/contact/contact';
+import { Footer } from './components/footer/footer';
 
 @Component({
-  imports: [Header, Hero, About, Services, Skills, Projects, Contact],
+  imports: [Header, Hero, About, Services, Skills, Projects, Contact, Footer],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',

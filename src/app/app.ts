@@ -4,9 +4,10 @@ import { Hero } from './components/hero/hero';
 import { About } from './components/about/about';
 import { Services } from './components/services/services';
 import { Skills } from './components/skills/skills';
+import { Projects } from './components/projects/projects';
 
 @Component({
-  imports: [Header, Hero, About, Services, Skills],
+  imports: [Header, Hero, About, Services, Skills, Projects],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img" aria-label="Ícone de fábrica, representando a fábrica de capotas marítimas por trás do Portal Flash Cover.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1c1c1c" />
+      <stop offset="100%" stop-color="#101010" />
+    </linearGradient>
+    <clipPath id="card">
+      <rect x="0" y="0" width="800" height="450" rx="24" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="800" height="450" fill="url(#bg)" />
+
+    <circle cx="400" cy="225" r="170" fill="#4fc3f7" fill-opacity="0.1" />
+
+    <g transform="translate(256 81) scale(12)" fill="none" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 16h.01" />
+      <path d="M16 16h.01" />
+      <path d="M3 19a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.5a.5.5 0 0 0-.769-.422l-4.462 2.844A.5.5 0 0 1 15 10.5v-2a.5.5 0 0 0-.769-.422L9.77 10.922A.5.5 0 0 1 9 10.5V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2z" />
+      <path d="M8 16h.01" />
+    </g>
+
+    <rect x="0.75" y="0.75" width="798.5" height="448.5" rx="23.5" fill="none" stroke="#2b2b2b" stroke-width="1.5" />
+  </g>
+</svg>

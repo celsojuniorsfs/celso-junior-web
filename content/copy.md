@@ -73,6 +73,10 @@ Posicionamento: título composto **Desenvolvedor Full Stack & Tech Lead**, decid
 
 **Título de seção sugerido:** Projetos
 
+**Subtítulo (linha de apoio abaixo do título):**
+
+> O que já construí
+
 ### Portal Flash Cover
 
 **Problema:** A operação dependia de processos manuais de apoio ao ERP corporativo (Senior Mega e, num momento posterior, TOTVS Protheus), sem um portal web que centralizasse e automatizasse essas rotinas.

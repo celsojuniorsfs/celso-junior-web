@@ -35,8 +35,8 @@ import { Component } from '@angular/core';
         </p>
 
         <p>
-          Moro em Santa Fé do Sul – SP e estou disponível para oportunidades remotas, híbridas ou
-          com mudança de cidade, em regime CLT ou PJ.
+          Moro em Santa Fé do Sul – SP e estou disponível para oportunidades remotas ou híbridas,
+          em regime CLT ou PJ.
         </p>
       </div>
     </div>

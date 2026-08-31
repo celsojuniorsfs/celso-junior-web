@@ -36,7 +36,7 @@ Posicionamento: título composto **Desenvolvedor Full Stack & Tech Lead**, decid
 >
 > Mais recentemente, passei a liderar tecnicamente um time multidisciplinar (devs, PO, QA e UX/UI), sustentando uma cadência semanal de releases sem interromper a operação do sistema em produção. Isso significa fazer o meio-campo entre produto e engenharia: refinar histórias, quebrá-las em tarefas técnicas, documentar decisões de arquitetura em ADRs e revisar código, sem abrir mão da atuação hands-on. Meu dia a dia inclui Docker, Redis, MySQL/SQL Server e pipelines de CI/CD no GitLab.
 >
-> Moro em Santa Fé do Sul – SP e estou disponível para oportunidades remotas, híbridas ou com mudança de cidade, em regime CLT ou PJ.
+> Moro em Santa Fé do Sul – SP e estou disponível para oportunidades remotas ou híbridas, em regime CLT ou PJ.
 
 ---
 

@@ -6,7 +6,10 @@ import { Component } from '@angular/core';
     <nav aria-label="Contato rápido" class="mx-auto max-w-page px-6 py-12">
       <ul class="flex flex-wrap justify-center gap-6">
         <li>
-          <a href="mailto:celsosilva@outlook.com" class="text-sm text-text-subtle hover:text-text">
+          <a
+            href="mailto:celsosilva@outlook.com"
+            class="inline-block py-3 text-sm text-text-subtle hover:text-text"
+          >
             celsosilva@outlook.com
           </a>
         </li>
@@ -15,7 +18,7 @@ import { Component } from '@angular/core';
             href="https://linkedin.com/in/celso-junior-347a21a8"
             target="_blank"
             rel="noopener"
-            class="text-sm text-text-subtle hover:text-text"
+            class="inline-block py-3 text-sm text-text-subtle hover:text-text"
           >
             LinkedIn
           </a>

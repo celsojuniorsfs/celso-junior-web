@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SectionHeading } from '../section-heading/section-heading';
 import { ProjectCard } from './project-card';
 
 type Project = {
@@ -11,14 +12,11 @@ type Project = {
 };
 
 @Component({
-  imports: [ProjectCard],
+  imports: [ProjectCard, SectionHeading],
   selector: 'app-projects',
   template: `
     <div class="flex flex-col items-center gap-16 py-section">
-      <div class="text-center">
-        <h2 id="projects-title" class="text-title font-extrabold text-text">Projetos</h2>
-        <p class="text-sm font-semibold text-accent">O que já construí</p>
-      </div>
+      <app-section-heading headingId="projects-title" title="Projetos" subtitle="O que já construí" />
 
       <div class="flex w-full flex-col gap-16">
         @for (project of projects; track project.title) {

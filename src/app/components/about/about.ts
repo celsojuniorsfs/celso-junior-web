@@ -1,13 +1,16 @@
 import { Component } from '@angular/core';
+import { SectionHeading } from '../section-heading/section-heading';
 
 @Component({
+  imports: [SectionHeading],
   selector: 'app-about',
   template: `
     <div class="flex flex-col items-center gap-12 py-section">
-      <div class="text-center">
-        <h2 id="about-title" class="text-title font-extrabold text-text">Sobre mim</h2>
-        <p class="text-sm font-semibold text-accent">Um pouco da minha trajetória</p>
-      </div>
+      <app-section-heading
+        headingId="about-title"
+        title="Sobre mim"
+        subtitle="Um pouco da minha trajetória"
+      />
 
       <div class="mx-auto flex max-w-3xl flex-col gap-6 text-lead text-text-muted">
         <p>

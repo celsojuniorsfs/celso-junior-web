@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { SectionHeading } from '../section-heading/section-heading';
+import { IconBadge } from '../icon-badge/icon-badge';
+import { CARD_CHROME_CLASS } from '../../shared/card-chrome';
 
 type ContactLink = {
   label: string;
@@ -9,7 +11,7 @@ type ContactLink = {
 };
 
 @Component({
-  imports: [SectionHeading],
+  imports: [SectionHeading, IconBadge],
   selector: 'app-contact',
   template: `
     <div class="flex flex-col items-center gap-12 py-section">
@@ -26,12 +28,9 @@ type ContactLink = {
             [href]="link.href"
             [attr.target]="link.external ? '_blank' : null"
             [attr.rel]="link.external ? 'noopener' : null"
-            class="flex flex-col items-center gap-4 rounded-card border border-border bg-linear-to-br from-surface-raised to-surface p-6 text-center"
+            [class]="cardClass"
           >
-            <div
-              class="flex size-11 items-center justify-center rounded-card bg-accent/10"
-              aria-hidden="true"
-            >
+            <app-icon-badge>
               @switch (link.label) {
                 @case ('E-mail') {
                   <svg
@@ -88,7 +87,7 @@ type ContactLink = {
                   </svg>
                 }
               }
-            </div>
+            </app-icon-badge>
 
             <div class="flex flex-col gap-1">
               <p class="text-sm font-semibold text-accent">{{ link.label }}</p>
@@ -101,6 +100,8 @@ type ContactLink = {
   `,
 })
 export class Contact {
+  protected readonly cardClass = `flex flex-col items-center gap-4 ${CARD_CHROME_CLASS} text-center`;
+
   protected readonly links: ContactLink[] = [
     {
       label: 'E-mail',

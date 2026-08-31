@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SectionHeading } from '../section-heading/section-heading';
 import { ServiceCard } from './service-card';
 
 type Service = {
@@ -8,14 +9,11 @@ type Service = {
 };
 
 @Component({
-  imports: [ServiceCard],
+  imports: [ServiceCard, SectionHeading],
   selector: 'app-services',
   template: `
     <div class="flex flex-col items-center gap-12 py-section">
-      <div class="text-center">
-        <h2 id="services-title" class="text-title font-extrabold text-text">Serviços</h2>
-        <p class="text-sm font-semibold text-accent">O que eu faço</p>
-      </div>
+      <app-section-heading headingId="services-title" title="Serviços" subtitle="O que eu faço" />
 
       <div
         role="list"

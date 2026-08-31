@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SectionHeading } from '../section-heading/section-heading';
 
 type ContactLink = {
   label: string;
@@ -8,13 +9,16 @@ type ContactLink = {
 };
 
 @Component({
+  imports: [SectionHeading],
   selector: 'app-contact',
   template: `
     <div class="flex flex-col items-center gap-12 py-section">
-      <div class="text-center">
-        <h2 id="contact-title" class="text-title font-extrabold text-text">Contato</h2>
-        <p class="text-lead text-text-muted">Vamos conversar sobre a próxima oportunidade.</p>
-      </div>
+      <app-section-heading
+        headingId="contact-title"
+        title="Contato"
+        subtitle="Vamos conversar sobre a próxima oportunidade."
+        variant="lead"
+      />
 
       <div class="grid w-full gap-6 sm:grid-cols-3">
         @for (link of links; track link.label) {

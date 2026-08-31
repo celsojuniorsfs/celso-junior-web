@@ -44,7 +44,7 @@ type ContactLink = {
                   </svg>
                 }
                 @case ('LinkedIn') {
-                  <svg viewBox="0 0 24 24" class="size-6">
+                  <svg viewBox="0 0 24 24" class="size-6 text-accent">
                     <rect
                       x="2"
                       y="2"
@@ -52,7 +52,7 @@ type ContactLink = {
                       height="20"
                       rx="5"
                       fill="none"
-                      stroke="#4fc3f7"
+                      stroke="currentColor"
                       stroke-width="2"
                     />
                     <text
@@ -61,7 +61,7 @@ type ContactLink = {
                       text-anchor="middle"
                       font-size="10"
                       font-weight="700"
-                      fill="#4fc3f7"
+                      fill="currentColor"
                       font-family="Inter, sans-serif"
                     >
                       in

@@ -1,4 +1,5 @@
 import { Component, signal } from '@angular/core';
+import { CONTACT_INFO } from '../../data/contact-info';
 
 type NavItem = { href: string; label: string };
 
@@ -31,7 +32,7 @@ type NavItem = { href: string; label: string };
             Fale comigo
           </a>
           <a
-            href="/CV_Celso_Luiz_da_Silva_Junior_Tech_Lead.pdf"
+            [href]="cvPath"
             download
             class="text-sm font-medium text-text-subtle hover:text-text"
           >
@@ -72,7 +73,7 @@ type NavItem = { href: string; label: string };
         </li>
         <li>
           <a
-            href="/CV_Celso_Luiz_da_Silva_Junior_Tech_Lead.pdf"
+            [href]="cvPath"
             download
             class="block py-3 text-lg font-medium text-text-subtle hover:text-text"
           >
@@ -84,6 +85,8 @@ type NavItem = { href: string; label: string };
   `,
 })
 export class Header {
+  protected readonly cvPath = CONTACT_INFO.cvPath;
+
   protected readonly navItems: NavItem[] = [
     { href: '#home', label: 'Início' },
     { href: '#about', label: 'Sobre' },

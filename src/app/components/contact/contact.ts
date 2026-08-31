@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { SectionHeading } from '../section-heading/section-heading';
 import { IconBadge } from '../icon-badge/icon-badge';
 import { CARD_CHROME_CLASS } from '../../shared/card-chrome';
+import { CONTACT_INFO } from '../../data/contact-info';
 
 type ContactLink = {
   label: string;
@@ -105,20 +106,20 @@ export class Contact {
   protected readonly links: ContactLink[] = [
     {
       label: 'E-mail',
-      value: 'celsosilva@outlook.com',
-      href: 'mailto:celsosilva@outlook.com',
+      value: CONTACT_INFO.email,
+      href: `mailto:${CONTACT_INFO.email}`,
       external: false,
     },
     {
       label: 'LinkedIn',
-      value: 'linkedin.com/in/celso-junior-347a21a8',
-      href: 'https://linkedin.com/in/celso-junior-347a21a8',
+      value: CONTACT_INFO.linkedinDisplay,
+      href: CONTACT_INFO.linkedinUrl,
       external: true,
     },
     {
       label: 'WhatsApp',
-      value: '(17) 99738-1979',
-      href: 'https://wa.me/5517997381979',
+      value: CONTACT_INFO.whatsappDisplay,
+      href: CONTACT_INFO.whatsappHref,
       external: false,
     },
   ];

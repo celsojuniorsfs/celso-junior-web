@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CONTACT_INFO } from '../../data/contact-info';
 
 @Component({
   selector: 'app-footer',
@@ -7,15 +8,15 @@ import { Component } from '@angular/core';
       <ul class="flex flex-wrap justify-center gap-6">
         <li>
           <a
-            href="mailto:celsosilva@outlook.com"
+            [href]="'mailto:' + email"
             class="inline-block py-3 text-sm text-text-subtle hover:text-text"
           >
-            celsosilva@outlook.com
+            {{ email }}
           </a>
         </li>
         <li>
           <a
-            href="https://linkedin.com/in/celso-junior-347a21a8"
+            [href]="linkedinUrl"
             target="_blank"
             rel="noopener"
             class="inline-block py-3 text-sm text-text-subtle hover:text-text"
@@ -33,4 +34,7 @@ import { Component } from '@angular/core';
     </div>
   `,
 })
-export class Footer {}
+export class Footer {
+  protected readonly email = CONTACT_INFO.email;
+  protected readonly linkedinUrl = CONTACT_INFO.linkedinUrl;
+}

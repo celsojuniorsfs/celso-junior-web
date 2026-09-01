@@ -1,17 +1,16 @@
 import { Component, input } from '@angular/core';
+import { IconBadge } from '../icon-badge/icon-badge';
+import { CARD_CHROME_CLASS } from '../../shared/card-chrome';
 
 @Component({
   host: {
-    class:
-      'flex flex-col gap-6 rounded-card border border-border bg-linear-to-br from-surface-raised to-surface p-6',
+    class: `flex flex-col gap-6 ${CARD_CHROME_CLASS}`,
     role: 'listitem',
   },
+  imports: [IconBadge],
   selector: 'app-service-card',
   template: `
-    <div
-      class="flex size-11 items-center justify-center rounded-card bg-accent/10"
-      aria-hidden="true"
-    >
+    <app-icon-badge>
       <svg
         viewBox="0 0 24 24"
         fill="none"
@@ -25,7 +24,7 @@ import { Component, input } from '@angular/core';
           <path [attr.d]="path" />
         }
       </svg>
-    </div>
+    </app-icon-badge>
 
     <div class="flex flex-col gap-2">
       <h3 class="text-sm font-semibold text-text">{{ title() }}</h3>

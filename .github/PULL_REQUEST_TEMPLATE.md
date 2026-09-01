@@ -14,8 +14,8 @@ Ref: CEL-
 2.
 3.
 
-- [ ] `ng build` passa
-- [ ] `ng test` passa (Vitest)
+- [ ] `ng build` passa (também roda automaticamente no CI a cada push/PR)
+- [ ] `ng test` passa (Vitest) (também roda automaticamente no CI a cada push/PR)
 - [ ] Testado manualmente no navegador
 - [ ] Navegado só com teclado (Tab/Shift+Tab), foco visível em tudo
 - [ ] Sem violações no AXE / WCAG AA (contraste, ARIA)

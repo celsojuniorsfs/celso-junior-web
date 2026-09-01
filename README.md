@@ -5,7 +5,7 @@
 <h1 align="center">celsojunior.dev.br</h1>
 
 <p align="center">
-  Site pessoal de portfólio — Angular 22, standalone components, signals e SSR.
+  Site pessoal de portfólio em Angular 22, standalone components, signals e SSR.
 </p>
 
 <p align="center">
@@ -26,11 +26,11 @@
 
 ## Sobre o projeto
 
-Portfólio pessoal de um desenvolvedor full stack com 8 anos de experiência em sistemas ERP corporativos de grande porte. Os sistemas em que atuei são internos de clientes e não podem virar screenshot de portfólio — então, em vez de prints, o site conta 3 cases técnicos (problema → solução → resultado) sobre o que foi construído, sem expor código, dados ou regra de negócio de ninguém.
+Portfólio pessoal de um desenvolvedor full stack com 8 anos de experiência em sistemas ERP corporativos de grande porte. Os sistemas em que atuei são internos de clientes e não podem virar screenshot de portfólio, então, em vez de prints, o site conta 3 cases técnicos (problema → solução → resultado) sobre o que foi construído, sem expor código, dados ou regra de negócio de ninguém.
 
-É uma página única com navegação por âncora (Início, Sobre, Serviços, Projetos, Contato) — sem necessidade de rotas de verdade, já que não há mais de uma "página".
+É uma página única com navegação por âncora (Início, Sobre, Serviços, Projetos, Contato), sem necessidade de rotas de verdade, já que não há mais de uma "página".
 
-> O layout parte de um template Figma da comunidade ("Designer Developer Portfolio"). A implementação inteira — componentes, arquitetura, testes, acessibilidade, CI — é código meu, escrito do zero.
+> O layout parte de um template Figma da comunidade ("Designer Developer Portfolio"). A implementação inteira: componentes, arquitetura, testes, acessibilidade, CI, é código meu, escrito do zero.
 
 ## Screenshot
 
